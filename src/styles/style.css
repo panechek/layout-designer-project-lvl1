@@ -1,7 +1,19 @@
 /** CSS STYLE **/
+@import url('https://fonts.googleapis.com/css2?family=Neucha&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-.hello {
-  display: block;
-
-  color: #fff;
+:root {
+  --white: #fff;
+  --halfWhite: #d7ccc0;
+  --light: #f5f4f0;
+  --mainColor: #fe8a02;
+  --mainDark: #42413c;
+  --dark: #2a2626;
+  --halfDark: #908d8b;
+  --brown: #b09a81;
+  --blue: #1085c5;
 }
+
+body {
+  font-family: 'Neucha';
+}
+
