@@ -60,12 +60,20 @@ h4 {
   color: var(--halfDark);
 }
 
+.text-halfWhite {
+  color: var(--halfWhite);
+}
+
 .text-orange {
   color: var(--mainColor);
 }
 
 .text-white {
   color: var(--white);
+}
+
+.text-brown {
+  color: var(--brown);
 }
 
 .text-uppercase {
