@@ -56,6 +56,10 @@ h4 {
   text-align: center;
 }
 
+.text-blue {
+  color: var(--blue);
+}
+
 .text-halfDark {
   color: var(--halfDark);
 }
@@ -86,6 +90,18 @@ h4 {
 
 .fs-24 {
   font-size: 24px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.ai-center {
+  align-items: center;
 }
 
 .section {
@@ -147,6 +163,10 @@ header {
   display: flex;
   justify-content: space-between;
   gap: 30px;
+}
+
+.d-flex {
+  display: flex;
 }
 
 .flex-1 {
@@ -215,5 +235,40 @@ header {
 .imgShadow {
     filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 
+}
+
+.form {
+  padding: 48px 55px;
+}
+
+.form input {
+  height: 50px;
+  padding: 15px;
+  box-sizing: border-box;
+  display: block;
+  flex: 1;
+  border: none;
+}
+
+.form input::placeholder {
+  opacity: 20%;
+  font-size: 13px;
+}
+
+.form button {
+  height: 50px;
+  width: 70px;  
+  background-color: var(--mainColor);
+  border: none;
+
+}
+
+.form button::before {
+  content: url(../../images/send.svg);
+}
+
+.contactInfo {
+  margin-top: 60px;
+  font-size: 14px;
 }
 
